@@ -173,7 +173,7 @@ public static void menuReportes() {
         }
 
         String reporte = "═══════════════════════════════════════\n"
-                + "   LISTA DE HUÉSPEDES REGISTRADOS\n"
+                + "   Lista de huespedes registrados:\n"
                 + "═══════════════════════════════════════\n\n";
 
         for (int i = 0; i < cantidadHuespedes; i++) {
@@ -191,7 +191,7 @@ public static void menuReportes() {
 
     public static void reporteHabitaciones() {
         String reporte = "═══════════════════════════════════════\n"
-                + "   HABITACIONES OCUPADAS Y DISPONIBLES\n"
+                + "   Habitaciones ocupadas y disponibles:\n"
                 + "═══════════════════════════════════════\n\n";
 
         // Verificar estado de cada habitación
@@ -236,7 +236,7 @@ public static void menuReportes() {
         }
 
         String reporte = "═══════════════════════════════════════\n"
-                + "   ACTIVIDADES PROGRAMADAS\n"
+                + "   Actividades programadas: \n"
                 + "   DÍA " + dia + "\n"
                 + "═══════════════════════════════════════\n\n";
 
@@ -254,3 +254,4 @@ public static void menuReportes() {
 
         JOptionPane.showMessageDialog(null, reporte);
     }
+
